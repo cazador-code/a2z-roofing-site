@@ -622,9 +622,15 @@ function Footer() {
             &copy; {new Date().getFullYear()} A2Z Roofing Company LLC. All
             rights reserved.
           </p>
-          <p className="text-white/20 text-xs">
-            Serving Colorado&apos;s Western Slope since 2008
-          </p>
+          <a
+            href="https://www.obieo.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-white/25 hover:text-accent text-xs transition-colors"
+          >
+            <Zap className="w-3 h-3" />
+            Designed &amp; Built by <span className="font-semibold text-white/40">Obieo</span>
+          </a>
         </div>
       </div>
     </footer>

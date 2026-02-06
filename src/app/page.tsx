@@ -82,7 +82,7 @@ function Hero() {
       />
       <div className="hero-gradient absolute inset-0" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-40 sm:pb-32 lg:pb-24">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-48 sm:pb-36 lg:pb-24">
         <div className="max-w-3xl">
           {/* Badge */}
           <div className="animate-fade-in-up inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
